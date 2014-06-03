@@ -1,0 +1,33 @@
+{% block content %} 
+
+<ol class="timeline">
+  {% for step in global.steps %}
+    {% case step.type %}
+
+      {% when "deliverable" %}
+        <li class="timeline-step step--deliverable">
+          <h2 class="step-date">{{ step.date }}</h2>
+          <h3 class="step-title">{{ step.title }}</h3>
+          {% for link in step.links %}
+            <a class= "step-link" href="{{ link.slug }}" target="">{{ link.desc }}</a>
+          {% endfor %}
+        </li>
+
+      {% when "event" %}
+        <li class="timeline-step step--event">
+          <h2 class="step-date">{{ step.date }}</h2>
+          <h3 class="step-title">{{ step.title }}</h3>
+        </li>
+
+      {% when "next" %}
+        <li class="timeline-step step--next">
+          <h2 class="step-date">Prochaine étape</h2>
+          <h3 class="step-title">{{ step.title }}</h3>
+        </li>
+        
+    {% endcase %}
+  {% endfor %}
+  <li><p class="timeline-start">C'est parti !</p></li>
+</ol>
+
+{% endblock %}

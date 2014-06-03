@@ -1,0 +1,48 @@
+// KEYNOTE
+// ------------------------------------------------------------
+
+.keynote-text
+  +sized-from( $break-medium, 50% )
+  margin: 0 auto
+  padding: $space-large 0
+
+.keynote-doc
+  position: relative
+  margin-bottom: $space-medium
+  @media screen and (min-width: $break-medium)
+    text-align: right
+
+  img 
+    display: block
+    min-width: 75%
+    max-width: 100%
+    @media screen and (min-width: $break-medium)
+      display: inline-block
+      padding-right: 25%
+
+  figcaption
+    position: relative
+    text-align: left
+    padding: $space-normal $space-normal
+    @media screen and (min-width: $break-medium)
+      position: absolute
+      width: 25%
+      padding: $space-medium $space-large $space-medium $space-medium
+      top: 0
+      right: 0
+    &:after
+      @media screen and (min-width: $break-medium)
+        display: block
+        content: "←"
+        color: $primary-color-light
+        margin-top: $space-normal
+    &:before
+      @media screen and (max-width: $break-medium)
+        content: "↑"
+        position: absolute
+        left: 0
+        top: 16px
+        color: $primary-color-light
+        
+
+

@@ -1,0 +1,12 @@
+<nav class="design-nav">
+  <ul>
+   {% collection "deliverable" %}
+    {% for post in collection.items %}
+      {% if post.title == model.title %}
+        {% assign short_name = "/deliverable/" | append: post.title | append: '-'  %}
+        <li><a href="{{ post.slug }}">{{ post.slug | remove: short_name }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endcollection %}
+  </ul>
+</nav>

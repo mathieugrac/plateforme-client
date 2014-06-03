@@ -1,0 +1,40 @@
+{
+    "name-project": "Titre projet",
+    "name-client": "Nom client",
+    "time-tracking": 0,
+    
+    "steps": [ 
+        {
+            "title": "Brief Créa",
+            "type": "next"
+        },
+        {
+            "title": "Etape N°1",
+            "date": "20 mai 2014",
+            "type": "deliverable",
+            "links": [
+                {
+                    "slug": "https://docs.google.com/spreadsheets/d/160MJjzspYtRaCmRD_TBqPAw6sMtU6EVGBujQj-A9lm4/edit",
+                    "desc": "Lien vers un document externe"
+                },
+                {
+                    "slug": "/deliverable/header-v3",
+                    "desc": "Voir le template de livrable design"
+                },
+                {
+                    "slug": "/deliverable/visual-research",
+                    "desc": "Voir le template de présentation"
+                },
+                {
+                    "slug": "/deliverable/inventaire",
+                    "desc": "Voir le template de livrable texte"
+                }
+            ]
+        },
+        {
+            "title": "Réunion Kickoff",
+            "date": "16 mai 2014",
+            "type": "event"
+        }
+    ]
+}

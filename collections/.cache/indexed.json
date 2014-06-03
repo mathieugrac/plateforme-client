@@ -1,0 +1,257 @@
+{
+  "deliverable": {
+    "index": {
+      "layout": {
+        "keynote-layout": [
+          "/deliverable/visual-research"
+        ],
+        "text-layout": [
+          "/deliverable/inventaire"
+        ],
+        "design-layout": [
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/deliverable/inventaire",
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1",
+          "/deliverable/visual-research"
+        ]
+      },
+      "mixture_month_year": {
+        "05/2014": [
+          "/deliverable/inventaire",
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1",
+          "/deliverable/visual-research"
+        ]
+      },
+      "month": {
+        "05": [
+          "/deliverable/inventaire",
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1",
+          "/deliverable/visual-research"
+        ]
+      },
+      "mixture_date": {
+        "2014-05-27t11:15:00z": [
+          "/deliverable/header-v3"
+        ],
+        "2014-05-27t11:00:00z": [
+          "/deliverable/header-v1"
+        ],
+        "2014-05-27t11:10:00z": [
+          "/deliverable/header-v2"
+        ],
+        "2014-05-26t10:51:00z": [
+          "/deliverable/visual-research"
+        ],
+        "2014-05-13t16:30:00z": [
+          "/deliverable/inventaire"
+        ]
+      },
+      "slug": {
+        "/deliverable/header-v1": [
+          "/deliverable/header-v1"
+        ],
+        "/deliverable/header-v2": [
+          "/deliverable/header-v2"
+        ],
+        "/deliverable/header-v3": [
+          "/deliverable/header-v3"
+        ],
+        "/deliverable/inventaire": [
+          "/deliverable/inventaire"
+        ],
+        "/deliverable/visual-research": [
+          "/deliverable/visual-research"
+        ]
+      },
+      "tags": {
+        "step": [
+          "/deliverable/inventaire"
+        ],
+        "deliverable": [
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1",
+          "/deliverable/visual-research"
+        ]
+      },
+      "ticks": {
+        "1401189300.0": [
+          "/deliverable/header-v3"
+        ],
+        "1401101460.0": [
+          "/deliverable/visual-research"
+        ],
+        "1401188400.0": [
+          "/deliverable/header-v1"
+        ],
+        "1399998600.0": [
+          "/deliverable/inventaire"
+        ],
+        "1401189000.0": [
+          "/deliverable/header-v2"
+        ]
+      },
+      "transliterated-title": {
+        "header": [
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1"
+        ],
+        "visual-research": [
+          "/deliverable/visual-research"
+        ],
+        "inventaire": [
+          "/deliverable/inventaire"
+        ]
+      },
+      "title": {
+        "header": [
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1"
+        ],
+        "visual research": [
+          "/deliverable/visual-research"
+        ],
+        "inventaire": [
+          "/deliverable/inventaire"
+        ]
+      },
+      "transliterated-tags": {
+        "step": [
+          "/deliverable/inventaire"
+        ],
+        "deliverable": [
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1",
+          "/deliverable/visual-research"
+        ]
+      },
+      "transliterated-layout": {
+        "keynote-layout": [
+          "/deliverable/visual-research"
+        ],
+        "text-layout": [
+          "/deliverable/inventaire"
+        ],
+        "design-layout": [
+          "/deliverable/header-v3",
+          "/deliverable/header-v2",
+          "/deliverable/header-v1"
+        ]
+      },
+      "transliterated-slug": {
+        "/deliverable/header-v1": [
+          "/deliverable/header-v1"
+        ],
+        "/deliverable/header-v2": [
+          "/deliverable/header-v2"
+        ],
+        "/deliverable/header-v3": [
+          "/deliverable/header-v3"
+        ],
+        "/deliverable/inventaire": [
+          "/deliverable/inventaire"
+        ],
+        "/deliverable/visual-research": [
+          "/deliverable/visual-research"
+        ]
+      }
+    },
+    "collection": {
+      "/deliverable/inventaire": {
+        "mixture_month_year": "05/2014",
+        "year": "2014",
+        "layout": "text-layout",
+        "published": true,
+        "month": "05",
+        "body": "\n<h1>Inventaire</h1>\n\n<h2>Page Accueil</h2>\n\n<h3>Navigation</h3>\n\n<h4>Premier niveau, Univers (Départements, Collection, Catégorie, thème)</h4>\n\n<ul>\n  <li>Tous les produits (prix, materiau, provenance)</li>\n  <li>Bureau (fourniture de bureau, papeterie)</li>\n  <li>Outils ( entretien, couture, bricolage, diy )</li>\n  <li>Maison / Intérieur / </li>\n  <li>Jardin</li>\n  <li>Grooming / Beauté / Soin / Salle de bain </li>\n  <li>Accessoires</li>\n  <li>Outdoor / Extérieur / Plein air / Excursion</li>\n  <li>Jeux</li>\n  <li>(Marque Perso, peut arriver plus tard)</li>\n  <li>Recherche</li>\n</ul>\n\n<p>Avoir accès en permanence à toutes les catégorie d’objet.</p>\n\n<h4>Deuxieme niveau</h4>\n\n<ul>\n  <li>A propos\n    <ul>\n      <li>Qui sommes nous</li>\n      <li>livraison</li>\n      <li>retour</li>\n      <li>cgu</li>\n    </ul>\n  </li>\n  <li>Blog</li>\n  <li>Panier</li>\n  <li>Mon compte\n    <ul>\n      <li>Vos commandes</li>\n      <li>Informations perso</li>\n      <li>bon de réductions</li>\n      <li>avoir</li>\n      <li>Mes adresses</li>\n      <li>mes alertes</li>\n    </ul>\n  </li>\n</ul>\n\n<h4>Footer</h4>\n<ul>\n  <li>Newsletter (à mettre en avant au début de la vie du site</li>\n  <li>A propos</li>\n  <li>Retour</li>\n  <li>Livraison</li>\n  <li>Contact</li>\n  <li>Réseaux sociaux (pinterest, facebook, twitter)</li>\n  <li>Cgu</li>\n  <li>Mention légales</li>\n</ul>\n\n<h3>Modules en page d&#8217;accueil</h3>\n\n<h4>Newsletter</h4>\n<p>Pousser à l&#8217;inscription à la newsletter</p>\n\n<h4>Offrez des bons cadeau</h4>\n<p>Bon d’achat à offrir + filtrer tous les produits par palier de prix.</p>\n\n<h2>Page Catégorie</h2>\n\n<p>Sur mobile: voir comment les produits rendent sous forme de liste avec image 1/4 et texte 3/4.</p>\n\n<p>Au dela: Grille de produit, les photos doivent être de base assez grandes pour bien voir les produits.</p>\n\n<p>Trouver une direction photo pour la présentation des objets. On pourrait on avoir un rapport d&#8217;échelle pour que les objets soit proportionnels entre eux. Avoir par ex. Trois type de cadrage ou gabarit photos: small, medium, large.</p>\n\n<p>“Chaque produit est un vrai produit” ne pas noyer les gens en produit. Ligne de trois ou quatre produits. 4 semble être le bon ratio si on peut occuper toute la longueur. Voir cmt ça rend à 5 produits par ligne sur grand écrans. Peut-être est ce trop.</p>\n\n<h3>Item-Produit</h3>\n<ul>\n  <li>Image de l&#8217;objet</li>\n  <li>Nom de l&#8217;objet</li>\n  <li>Référence de l&#8217;objet</li>\n  <li>Prix</li>\n  <li>Marque (la marque est un tag, au survol on pourrait indiquer combien d&#8217;objet nous possédons de la même marque)</li>\n</ul>\n\n<p>Y&#8217;a t il des patchs, nouveau, promo ou rabais à prévoir ? </p>\n\n<h4><a href=\"http://www.bestmadeco.com\">Best Made</a></h4>\n<p>Photos sur fond blanc réussies, sonne “vrai objet”. Importance des photos pour susciter le désir.</p>\n\n<h4><a href=\"http://www.objectsofuse.com/\">Object of use</a></h4>\n<p>Y&#8217;a quelque chose de vrai, qui m&#8217;inspire, à creuser.</p>\n\n<h2>Page Produit</h2>\n\n<h3>Image du produit</h3>\n\n<ul>\n  <li>Le produit simple sur fond blanc ou neutre</li>\n  <li>Mis en scène</li>\n  <li>Rapport d’échelle et contexte d’utilisation</li>\n</ul>\n\n<h4>Note</h4>\n<p>Avoir de grande image produit.</p>\n\n<h3>Bloc achat</h3>\n\n<ul>\n  <li>Quantité</li>\n  <li>Variante: couleur</li>\n  <li>Prix</li>\n  <li>Disponibilité: (mode on/off, ou si intéressant, mais à voir, jauge de quantité en magasin. Si pas dispo, champ d’alerte pour salorsque le produit sera à nouveau en stock. Quand le produit sera livré (avec l’option la plus rapide) + argument dans une phrase contextuelle au produit (ex. Opinel : tartinez votre biscotte ce mercredi 12 matin !)</li>\n  <li>Déclinaison du produit : taille, couleur, produit abîmé</li>\n  <li>Bouton Acheter</li>\n</ul>\n\n<h3>Infos produit</h3>\n<ul>\n  <li>Pitch assez simple et concis du produit.</li>\n  <li>Fabrication du produit ( qui le fabrique, où ça, quelle région )</li>\n  <li>Histoire du produit, sa conception, son origine, son design ou matériau ( année, utilisation, corp de métier )</li>\n  <li>Le plus produit par rapport à son utilisation et sa concurrence directe.</li>\n  <li>Comment entretenir le produit (+lien vers produits si existe)</li>\n  <li>Livraison (Expliquer tous les modes de livraison dès la page produit)</li>\n  <li>Retour (expliquer les conditions de retour).</li>\n</ul>\n\n<h3>Modules</h3>\n\n<h4>Articles consultés récemment</h4>\n<p>Les liens vers les produits récemments consultés. A priori en bas de page. Définir combien de produits on retient.</p>\n\n<ul>\n  <li>Mettre les articles du blog en relation avec ce produit en _blank.</li>\n  <li>Module Produit similaires</li>\n  <li>Module Produits qui vont avec</li>\n  <li>Fleches next/prev (comment ça fonctionne techniquement ?)</li>\n</ul>\n\n<h5>Note</h5>\n<ol>\n  <li>Ne pas quitter la page lorsqu’on ajoute un produit au panier (ajax).</li>\n  <li>Un espace commentaire ?</li>\n</ol>\n\n<h2>Page Contenu texte</h2>\n\n<h3>A propos</h3>\n<p>Page qui sera peut être un peu plus travaillé, en mode branding, pour mettre en avant le contexte.</p>\n\n<h4>Trouver les différentes parties à écrire:</h4>\n<ul>\n  <li>Histoire</li>\n  <li>Conviction</li>\n  <li>Qualité</li>\n  <li>Éthique</li>\n</ul>\n\n<h3>Livraison</h3>\n<p>À écrire.</p>\n\n<h3>Retours</h3>\n<p>À écrire.</p>\n\n<h3>CGU</h3>\n\n<h2>Page Panier</h2>\n\n<h3>&#8220;Old e-commerce problem: sites that make it difficult to know when an item is added to the shopping cart.&#8221;</h3>\n\n<p>Avoir un effet de feedback. Sur la page produit on pourrait transformer l&#8217;état du bouton ajouter panier, sa couleur, ou mettre une pastille produit ajouté au panier.</p>\n\n<h4>Ajout panier</h4>\n<p>Ne pas diriger l&#8217;utilisateur sur la page panier, lui permettre de continuer à farfouiner. <br />\n- Soit le laisser ou il est et se démerder<br />\n- Soit lui proposer d&#8217;autre produit<br />\n- Soit avoir des actions à portée de main (next, prev, categorie…)</p>\n\n<h2>Page Wishlist (à réfléchir pour dans une V2)</h2>\n\n<h2>Page Blog</h2>\n\n<p>Trouver une série de post types afin d&#8217;aider Alex à produire un contenu standardisé.</p>\n\n<h2>Page Compte</h2>\n\n<h2>Page Résultat de recherche</h2>\n\n<h2>Tunnel de paiement</h2>\n",
+        "date": "Tue May 13 16:30:00 UTC 2014",
+        "mixture_date": "2014-05-13T16:30:00Z",
+        "ticks": 1399998600.0,
+        "tags": [
+          "step"
+        ],
+        "slug": "/deliverable/inventaire",
+        "title": "Inventaire"
+      },
+      "/deliverable/header-v3": {
+        "mixture_month_year": "05/2014",
+        "year": "2014",
+        "layout": "design-layout",
+        "published": true,
+        "month": "05",
+        "date": "Tue May 27 11:15:00 UTC 2014",
+        "body": "\n\n<section class=\"design-container\">\n  <img class=\"design-image\" src=\"/assets/img/gubb-and-mackie.jpg\" alt=\"\">\n</section>",
+        "mixture_date": "2014-05-27T11:15:00Z",
+        "ticks": 1401189300.0,
+        "tags": [
+          "deliverable"
+        ],
+        "slug": "/deliverable/header-v3",
+        "title": "header"
+      },
+      "/deliverable/header-v2": {
+        "mixture_month_year": "05/2014",
+        "year": "2014",
+        "layout": "design-layout",
+        "published": true,
+        "month": "05",
+        "body": "\n\n\n<section class=\"keynote-section\">\n\n  <div class=\"keynote-text\">\n    <h1>Header V2</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n\n</section>",
+        "date": "Tue May 27 11:10:00 UTC 2014",
+        "mixture_date": "2014-05-27T11:10:00Z",
+        "ticks": 1401189000.0,
+        "tags": [
+          "deliverable"
+        ],
+        "slug": "/deliverable/header-v2",
+        "title": "header"
+      },
+      "/deliverable/header-v1": {
+        "mixture_month_year": "05/2014",
+        "year": "2014",
+        "layout": "design-layout",
+        "published": true,
+        "month": "05",
+        "body": "\n\n\n<section class=\"keynote-section\">\n\n  <div class=\"keynote-text\">\n    <h1>Header V1</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n\n</section>",
+        "date": "Tue May 27 11:00:00 UTC 2014",
+        "mixture_date": "2014-05-27T11:00:00Z",
+        "ticks": 1401188400.0,
+        "tags": [
+          "deliverable"
+        ],
+        "slug": "/deliverable/header-v1",
+        "title": "header"
+      },
+      "/deliverable/visual-research": {
+        "mixture_month_year": "05/2014",
+        "year": "2014",
+        "layout": "keynote-layout",
+        "published": true,
+        "month": "05",
+        "body": "\n\n<section class=\"keynote-section\">\n\n  <div class=\"keynote-text\">\n    <h1>Couleur</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/gubb-and-mackie.jpg\" alt=\"\">\n    <figcaption>This is a description of the document</figcaption>\n  </figure>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/dieter-rams.jpg\" alt=\"\">\n    <figcaption>This is a description of the document but a bit long compare to the other, it's to test on several lines of text.</figcaption>\n  </figure>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/maquette-braun.jpg\" alt=\"\">\n    <figcaption>This is a description of the document</figcaption>\n  </figure>\n\n</section>\n\n<section class=\"keynote-section\">\n  <div class=\"keynote-text\">\n    <h1>Layout</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n</section>\n",
+        "date": "Mon May 26 10:51:00 UTC 2014",
+        "mixture_date": "2014-05-26T10:51:00Z",
+        "ticks": 1401101460.0,
+        "tags": [
+          "deliverable"
+        ],
+        "slug": "/deliverable/visual-research",
+        "title": "Visual Research"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+// TODO: Rajouter un dossier 'fonts'
+// TODO: Supprimer le dossier 'css/elements'
+// TODO: Transformer le fichier 'buttons' en 'components'
+
+
+// Import compass librairies
+// ------------------------------------------------------------
+@import "compass/reset"
+@import "compass/css3"
+@import "compass/typography"
+@import "compass/utilities/general"
+
+
+// Import Global's librairies
+// ------------------------------------------------------------
+@import "global/settings"
+@import "global/layout"
+@import "global/typography"
+@import "global/components"
+
+
+// Import Bloc's librairies
+// ------------------------------------------------------------
+@import "block/header"
+@import "block/footer"
+@import "block/timeline"
+@import "block/keynote"
+@import "block/design"
+
+
+// Html + Body elements
+// ------------------------------------------------------------
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+body
+  font-family: "Calibre Regular", Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  font-size: $font-normal
+  line-height: $base-lineheight
+  color: $primary-color

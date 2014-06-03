@@ -1,0 +1,28 @@
+{
+  "debug": false,
+  "domain": null,
+  "ftpSettings": {
+    "host": "ftp.your-domain.com",
+    "password": "password",
+    "path": "www",
+    "port": 21,
+    "secure": false,
+    "username": "username"
+  },
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "assets",
+  "preprocessorScriptOutput": "assets/scripts",
+  "preprocessorStyleOutput": "assets/css",
+  "projectDescription": "Prototype pour une plateforme client",
+  "projectName": "plateforme-client",
+  "publishedId": "14406",
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "index-layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": true
+}
