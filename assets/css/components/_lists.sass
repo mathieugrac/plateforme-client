@@ -1,0 +1,24 @@
+// LISTS
+// ---------------------------------------------------------------------------- //
+
+.list-horizontal li
+  display: inline-block
+  padding-left: $space-tiny
+  padding-right: $space-tiny
+  &:first-child
+    padding-left: 0
+  &:last-child
+    padding-right: 0
+
+.list-bullet
+  list-style: disc outside none
+  margin-bottom: $space-normal
+  margin-left: $space-normal
+  margin-right: $space-normal
+  padding-left: $space-small
+  ul 
+    list-style: circle outside none 
+    margin-bottom: $space-tiny !important
+
+.list-ordered
+  list-style: decimal outside none

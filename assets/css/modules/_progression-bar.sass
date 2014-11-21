@@ -1,0 +1,22 @@
+.progression-bar
+  // padding: $space-small
+  // background-color: $grey-lighter
+  // margin-top: $space-tiny
+  margin-bottom: $space-tiny
+
+.progression-bar-mask
+  position: relative
+  width: 100%
+  height: $space-tiny
+  +border-radius($space-tiny)
+  background-color: $grey-dark
+  overflow: hidden
+
+.progression-bar-progress
+  position: absolute
+  top: 0
+  left: 0
+  height: $space-tiny
+  width: 0%
+  background-color: $red-light
+  transition: width ease 1s

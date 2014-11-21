@@ -1,22 +1,22 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset=utf-8 />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        {% block metas %}{% endblock %}
-        <title>{% block title %}Prototype pour une plateforme client{% endblock %}</title>
-        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-        {{ "index.css" | asset_url | stylesheet_tag }}
-        {% block styles %}{% endblock %}
-    </head>
+    {% include "head" %}
     <body>
-        <div class="spacer">
-            <div class="wrapper">
-                {% block content %}{% endblock %}
+        <div class="wrapper">
+            <div class="row">
+                <section class="main-content col push-1-4 three-to-four">
+                    <article id="content" class="text">
+                        {% block content %}{% endblock %}
+                    </article>
+                </section>
             </div>
+            <section class="sidebar">
+                <a class="button button-back" href="/">Retour</a>
+                <ul id="table-of-content"></ul>
+            </section>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        {{ "index.js" | asset_url | script_tag }}
+        {{ "table-of-content.js" | asset_url | script_tag }}
         {% block scripts %}{% endblock %}
     </body>
 </html>

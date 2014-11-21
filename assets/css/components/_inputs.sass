@@ -1,0 +1,55 @@
+// INPUTS
+// ---------------------------------------------------------------------------- //
+
+
+// Placeholders
+// ---------------------------------------------------------------------------- //
+%reset-style
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  outline: none
+  margin: 0
+  border: 0
+  padding: 0
+  +border-radius(0)
+
+// Inputs
+// ---------------------------------------------------------------------------- //
+
+input,
+textarea,
+select
+  @extend %reset-style
+
+
+input[type='submit']
+  cursor: pointer
+
+input[type='text'],
+input[type='email'],
+textarea
+  &::-webkit-input-placeholder
+    color: $grey-light
+  &:-moz-placeholder
+    color: $grey-light /* FF 18 */
+  &::-moz-placeholder
+    color: $grey-light /* FF 19+ */
+  &:-ms-input-placeholder
+    color: $grey-light
+  &:focus
+    border-color: darken($grey-lighter, 12)
+
+
+// Labels
+// ---------------------------------------------------------------------------- //
+
+
+
+// Select
+// ---------------------------------------------------------------------------- //
+
+

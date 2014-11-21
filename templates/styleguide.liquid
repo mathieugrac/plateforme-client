@@ -1,0 +1,85 @@
+{% block metas %}{% endblock %}
+{% block title %}{% endblock %}
+
+{% block content %} 
+
+<article class="text">
+  <h1>Style Guide</h1>
+  <h2>Second niveau titre qui court sur deux lignes</h2>
+  <p class="paragraph-medium">
+    This code determines the position of each heading (current.position().top) and scale it to fit in the window. After appending HTML anchor, a new position is assigned via CSS. Finally, we have to position HTML anchors absolutely. Also, each heading type has different font size. The CSS in demo 3 looks like this.
+  </p>
+  <p>
+    Div <a href="/styleguide">element</a> with “toc” id will be a container for TOC links (this can be also added dynamically but for this example, we’ll keep it in static structure). The actual article is placed in div element with id “content”. Check out demo 1 for full lorem ipsum article. Now let’s create TOC. First we’ll append a paragraph inside “toc” container with text “In this article”. You might have seen this in some blog posts around. Next, we’ll find all H1, H2 and H3 elements and assign unique id (for this page) to each one of them. This will make them easily accessible on click. At the end, we’ll append a link for each heading.
+  </p>
+  <h3>You might have seen this in some blog posts around</h3>
+  <p>
+    This code determines the position of each heading (current.position().top) and scale it to fit in the window. After appending HTML anchor, a new position is assigned via CSS. Finally, we have to position HTML anchors absolutely. Also, each heading type has different font size. The CSS in demo 3 looks like this.
+  </p>
+  <ul>
+    <li>Liste item 1</li>
+    <li>Liste item 2</li>
+    <li>Liste item 3</li>
+    <ul>
+      <li>Second list item 1</li>
+      <li>Second list item 2</li>
+      <li>Second list item 3</li>
+    </ul>
+    <li>Liste item 4</li>
+    <li>Liste item 5</li>
+  </ul>
+  <h4>You might have seen this in some blog posts around</h4>
+  <p class="paragraph-medium">
+    This code determines the position of each heading (current.position().top) and scale it to fit in the window. After appending HTML anchor, a new position is assigned via CSS. Finally, we have to position HTML anchors absolutely. Also, each heading type has different font size. The CSS in demo 3 looks like this.
+  </p>
+  <ol>
+    <li>Liste item 1</li>
+    <li>Liste item 2</li>
+    <li>Liste item 3</li>
+  </ol>
+  <h4>You might have seen this in some blog posts around</h4>
+  <p class="">
+    This code determines the position of each heading (current.position().top) and scale it to fit in the window. After appending HTML anchor, a new position is assigned via CSS. Finally, we have to position HTML anchors absolutely. Also, each heading type has different font size. The CSS in demo 3 looks like this.
+  </p>
+  <h4>Valeurs typos</h4>
+  <table>
+    <tbody>
+      <tr>
+        <th>$font-small</th>
+        <td>15px</td>
+      </tr>
+      <tr>
+        <th>$font-normal</th>
+        <td>18px</td>
+      </tr>
+      <tr>
+        <th>$font-medium</th>
+        <td>21px</td>
+      </tr>
+      <tr>
+        <th>$font-large</th>
+        <td>30px</td>
+      </tr>
+      <tr>
+        <th>$font-xlarge</th>
+        <td>42px</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="">
+    Div element with “toc” id will be a container for TOC links (this can be also added dynamically but for this example, we’ll keep it in static structure). The actual article is placed in div element with id “content”. Check out demo 1 for full lorem ipsum article. Now let’s create TOC. First we’ll append a paragraph inside “toc” container with text “In this article”. You might have seen this in some blog posts around. Next, we’ll find all H1, H2 and H3 elements and assign unique id (for this page) to each one of them. This will make them easily accessible on click. At the end, we’ll append a link for each heading.
+  </p>
+  <h4>You might have seen this in some blog posts around</h4>
+   <p class="paragraph-small">
+    This code determines the position of each heading (current.position().top) and scale it to fit in the window. After appending HTML anchor, a new position is assigned via CSS. Finally, we have to position HTML anchors absolutely. Also, each heading type has different font size. The CSS in demo 3 looks like this.
+  </p>
+  <h2>Page panier</h2>
+  <p>
+    Div element with “toc” id will be a container for TOC links (this can be also added dynamically but for this example, we’ll keep it in static structure). The actual article is placed in div element with id “content”. Check out demo 1 for full lorem ipsum article. Now let’s create TOC. First we’ll append a paragraph inside “toc” container with text “In this article”. You might have seen this in some blog posts around. Next, we’ll find all H1, H2 and H3 elements and assign unique id (for this page) to each one of them. This will make them easily accessible on click. At the end, we’ll append a link for each heading.
+  </p>
+</article>
+
+{% endblock %}
+
+
+{% block scripts %}{% endblock %}

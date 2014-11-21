@@ -1,4 +1,15 @@
-<header class="header">
-  <h1>{{ global.name-project }}<em>{{ global.name-client }}</em></h1>
-  <div>Temps passé – {{ global.time-tracking}}h</div>
+<header class="header wrapper row">
+  <div class="col three-to-four">  
+    <h1>
+      <a href="/">{{ global.name-project }}</a>
+      <span class="client">pour {{ global.name-client }}</span>
+    </h1>
+  </div>
+  <div class="col one-to-four">
+    <ul class="text-right list-horizontal">
+      <li><a class="header-bt" href="/">Timeline</a></li>
+      <li><a class="header-bt" href="/timetracking">Timetracking</a></li>
+    </ul>
+  </div>
+  <!-- <div>Temps passé – {{ global.time-tracking}}h</div> -->
 </header>

@@ -1,0 +1,17 @@
+// MIXINS
+// ---------------------------------------------------------------------------- //
+
+
+// For font-face
+// ------------------------------------------------------------ //
+
+@mixin init-font($font, $path)
+  +font-face( $font, font-files($path+".woff", $path+".ttf", $path+".otf", $path+".svg") )
+
+
+// For breakpoints
+// ------------------------------------------------------------ //
+
+@mixin sized-from($breakpoint, $value)
+  @media screen and (min-width: $breakpoint)
+    width: $value

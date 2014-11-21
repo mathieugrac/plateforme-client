@@ -1,0 +1,115 @@
+// TYPOGRAPHY
+// ------------------------------------------------------------ //
+
+
+// Set fonts
+// ------------------------------------------------------------ //
+
+$calibre-regular: "Calibre Regular"
+$calibre-semi: "Calibre Semi"
+
++init-font( $calibre-regular, "/assets/fonts/calibre/calibre-regular")
++init-font( $calibre-semi, "/assets/fonts/calibre/calibre-semibold")
+
+$font-primary: $calibre-regular, Helvetica, Arial, sans-serif
+$font-primary-bold: $calibre-semi, Helvetica, Arial, sans-serif
+
+
+// Typographic style
+// ------------------------------------------------------------ //
+
+.font-primary
+  font-family: $font-primary
+  font-weight: normal
+
+.font-primary-bold
+  font-family: $font-primary-bold
+  font-weight: normal
+
+
+// Typographic size
+// ------------------------------------------------------------ //
+
+.font-small
+  font-size: $font-small
+  line-height: 1.4
+
+.font-normal
+  font-size: $font-normal
+  line-height: $base-line-height
+
+.font-medium
+  font-size: $font-medium
+  line-height: 1.14285714
+
+.font-large
+  font-size: $font-large
+  line-height: 1
+
+.font-xlarge
+  font-size: $font-xlarge
+  line-height: 1
+
+.font-uppercase
+  text-transform: uppercase
+  letter-spacing: 0.05em
+
+
+// Typographic elements
+// ------------------------------------------------------------ //
+
+body
+  @extend .font-primary
+  @extend .font-normal
+  -webkit-font-smoothing: antialiased
+  font-size: $font-normal
+  line-height: $base-line-height
+  color: $color-text-normal
+
+
+// Heading ---------------------------------------------------- //
+
+h1, .h1
+  @extend .font-primary-bold
+  @extend .font-xlarge
+  color: $color-text-dark
+  letter-spacing: -0.02em
+
+h2, .h2
+  @extend .font-primary
+  @extend .font-large
+  color: $color-text-accent
+  letter-spacing: -0.02em
+
+h3, .h3 
+  @extend .font-primary-bold
+  @extend .font-medium
+  color: $color-text-dark
+
+h4, .h4
+  @extend .font-primary-bold
+  @extend .font-small
+  @extend .font-uppercase
+  // color: $color-text-dark
+
+h1 em
+  font-family: "Calibre Regular"
+  padding-left: $space-small
+
+
+// Paragraphs --------------------------------------------- //
+
+p, .paragraph-normal 
+  @extend .font-primary
+  @extend .font-normal
+
+small, .paragraph-small
+  @extend .font-primary
+  @extend .font-small
+
+.paragraph-medium
+  @extend .font-primary
+  @extend .font-medium
+
+
+

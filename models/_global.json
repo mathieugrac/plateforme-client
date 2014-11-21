@@ -1,29 +1,40 @@
 {
-    "name-project": "Titre projet",
-    "name-client": "Nom client",
+    "name-project": "Plateforme client",
+    "name-client": "Mathieu Grac",
     "time-tracking": 0,
     
     "steps": [ 
         {
-            "title": "Brief Créa",
+            "title": "#4 Template de présentation",
             "type": "next"
         },
         {
-            "title": "Etape N°1",
-            "date": "20 mai 2014",
+            "title": "#3 Template Texte",
+            "date": "30 oct 2014",
             "type": "deliverable",
             "links": [
                 {
-                    "slug": "https://docs.google.com/spreadsheets/d/160MJjzspYtRaCmRD_TBqPAw6sMtU6EVGBujQj-A9lm4/edit",
-                    "desc": "Lien vers un document externe"
+                    "slug": "/deliverable/template-texte?v=3",
+                    "desc": "Voir le template texte <span>v3</span>"
                 },
                 {
-                    "slug": "/deliverable/header-v3",
+                    "slug": "/deliverable/template-texte?v=2",
+                    "desc": "Voir le template texte <span>v2</span>"
+                },
+                {
+                    "slug": "/deliverable/template-texte?v=1",
+                    "desc": "Voir le template texte <span>v1</span>"
+                }
+            ]
+        },
+        {
+            "title": "#2 Templates",
+            "date": "29 oct 2014",
+            "type": "deliverable",
+            "links": [
+                {
+                    "slug": "/deliverable/template-texte",
                     "desc": "Voir le template de livrable design"
-                },
-                {
-                    "slug": "/deliverable/visual-research",
-                    "desc": "Voir le template de présentation"
                 },
                 {
                     "slug": "/deliverable/inventaire",
@@ -32,7 +43,29 @@
             ]
         },
         {
-            "title": "Réunion Kickoff",
+            "title": "#1 Inventaire",
+            "date": "28 oct 2014",
+            "type": "deliverable",
+            "links": [
+                {
+                    "slug": "/deliverable/inventaire",
+                    "desc": "Voir l'inventaire"
+                }
+            ]
+        },
+        {
+            "title": "#0 Process",
+            "date": "28 oct 2014",
+            "type": "deliverable",
+            "links": [
+                {
+                    "slug": "/deliverable/process",
+                    "desc": "Voir mon process de travail"
+                }
+            ]
+        },
+        {
+            "title": "A project is born",
             "date": "16 mai 2014",
             "type": "event"
         }

@@ -1,0 +1,47 @@
+{% block metas %}{% endblock %}
+{% block title %}{% endblock %}
+
+{% block content %} 
+
+<div class="wrapper row space-top-normal space-bottom-xlarge">
+
+  <div class="row space-bottom-large">
+    <div class="col one-to-four">
+      <h2 class="space-bottom-large">Timetracking</h2>
+    </div>
+    <div class="col five-to-eight">
+      {% include "progression-bar" %}
+    </div>
+  </div>
+
+  {% for working in model.timetracking %}
+    <div class="row space-top-small space-bottom-medium">
+      <div class="col push-1-4 one-to-eight">
+        <h3>{{ working.day }}</h3>
+      </div>
+      <div class="col four-to-eight">
+        {% for session in working.work %}
+        <div class="row">
+            <div class="col one-to-four">
+              <p>{{ session.start }} — {{ session.end }}</p>
+            </div>    
+            <div class="col two-to-four">
+              <p>{{ session.note }}</p>
+            </div>
+            <div class="col one-to-four text-right">
+              <div class="totalTime" start="{{session.start}}" finish="{{session.end}}"></div>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+    </div>
+  {% endfor %}
+
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+  {{ "manage-time.js" | asset_url | script_tag }}
+{% endblock %}

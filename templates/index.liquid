@@ -1,33 +1,46 @@
 {% block content %} 
+<div class="wrapper row">
+  <div class="col one-to-four space-top-normal space-bottom-large">
+    <h2 class="">Timeline</h2>
+  </div>
+  <div class="col two-to-four">
+    <ol class="timeline">
+      {% for step in global.steps %}
+        {% case step.type %}
+    
+          {% when "deliverable" %}
+            <li class="timeline-release--deliverable">
+              <h2>{{ step.title }}</h2>
+              <h3>{{ step.date }}</h3>
+              {% for link in step.links %}
+                <a class="link" href="{{ link.slug }}" target="">{{ link.desc }}</a>
+              {% endfor %}
+            </li>
+    
+          {% when "event" %}
+            <li class="timeline-release--event">
+              <h2>{{ step.title }}</h2>
+              <h3>{{ step.date }}</h3>
+            </li>
+    
+          {% when "next" %}
+            <li class="timeline-release--next">
+              <h3>À venir</h3>
+              <h2>{{ step.title }}</h2>
+              <!-- <img class="" src="{{ 'worker.png' | asset_url }}" alt="work in progress"> -->
+            </li>
+    
+        {% endcase %}
+      {% endfor %}
+    </ol>
+  </div>
+</div>
 
-<ol class="timeline">
-  {% for step in global.steps %}
-    {% case step.type %}
-
-      {% when "deliverable" %}
-        <li class="timeline-step step--deliverable">
-          <h2 class="step-date">{{ step.date }}</h2>
-          <h3 class="step-title">{{ step.title }}</h3>
-          {% for link in step.links %}
-            <a class= "step-link" href="{{ link.slug }}" target="">{{ link.desc }}</a>
-          {% endfor %}
-        </li>
-
-      {% when "event" %}
-        <li class="timeline-step step--event">
-          <h2 class="step-date">{{ step.date }}</h2>
-          <h3 class="step-title">{{ step.title }}</h3>
-        </li>
-
-      {% when "next" %}
-        <li class="timeline-step step--next">
-          <h2 class="step-date">Prochaine étape</h2>
-          <h3 class="step-title">{{ step.title }}</h3>
-        </li>
-        
-    {% endcase %}
-  {% endfor %}
-  <li><p class="timeline-start">C'est parti !</p></li>
-</ol>
+<div class="wrapper row space-xlarge bg-grey">
+  <div class="col push-1-4 two-to-four">
+    <h2 class="space-bottom-tiny">Hey !</h2>
+    <p>Bienvenue sur la plateforme de votre projet. Celle-ci nous permettra de d'échanger tout au long du parcours de création. Vous trouverez tous les documents liés à l'avancement du projet.</p>
+  </div>
+</div>
 
 {% endblock %}

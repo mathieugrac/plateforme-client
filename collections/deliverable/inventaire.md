@@ -2,177 +2,108 @@
 title: Inventaire
 slug: inventaire
 published: true
-date: 2014-05-13 16:30
+date: 2014-10-28 14:35
 tags: [step]
 layout: text-layout
 ---
 
 # Inventaire
 
-## Page Accueil
 
-### Navigation
+## 0.0 Header
 
-#### Premier niveau, Univers (Départements, Collection, Catégorie, thème)
+#### Infos
+- Le titre du projet
+- Le nom du client
 
-- Tous les produits (prix, materiau, provenance)
-- Bureau (fourniture de bureau, papeterie)
-- Outils ( entretien, couture, bricolage, diy )
-- Maison / Intérieur / 
-- Jardin
-- Grooming / Beauté / Soin / Salle de bain 
-- Accessoires
-- Outdoor / Extérieur / Plein air / Excursion
-- Jeux
-- (Marque Perso, peut arriver plus tard)
-- Recherche
+#### Navigation
+- Timeline
+- Timetrack 
 
-Avoir accès en permanence à toutes les catégorie d’objet.
+## 0.0 Footer
+Pas grand chose à raconter ici. Mettre simplement un crédit.
 
-#### Deuxieme niveau
+## 1.0 Timeline
 
-- A propos
-	- Qui sommes nous
-	- livraison
-	- retour
-	- cgu
-- Blog
-- Panier
-- Mon compte
-	- Vos commandes
-	- Informations perso
-	- bon de réductions
-	- avoir
-	- Mes adresses
-	- mes alertes
+C'est la page principale de la plateforme. C'est ici que l'on retrouvera, dans un ordre chronologique, tous les livrables qui auront été posté au cours de l'evolution du projet.
 
-#### Footer
-- Newsletter (à mettre en avant au début de la vie du site
-- A propos
-- Retour
-- Livraison
-- Contact
-- Réseaux sociaux (pinterest, facebook, twitter)
-- Cgu
-- Mention légales
+### timeline-release
+On distingue trois types d'objets sur la timeline:
 
-### Modules en page d'accueil
+- #### timeline-release---event
+Un moment important dans l'élaboration du projet, le franchissement d'une étape, sans qu'aucun document ne soit lié.
 
-#### Newsletter
-Pousser à l'inscription à la newsletter
+- #### timeline-release---deliverable
+C'est le principal type de post qui permet de partager le resultat d'une étape de travail. Il s'agit d'un lien pointant soit vers un document extérieur, soit vers un document hébergé sur la plateforme (voir templates).
 
-#### Offrez des bons cadeau
-Bon d’achat à offrir + filtrer tous les produits par palier de prix.
+- #### timeline-release---next
+Nous permets d'indiquer au client ce sur quoi nous sommes en train de travailler. Annonce le futur livrable.
 
-## Page Catégorie
+## 2.0 Templates
+Il s'agit de réaliser différents template de page propices au type de contenu à présenter au client.
 
-Sur mobile: voir comment les produits rendent sous forme de liste avec image 1/4 et texte 3/4.
+### Texte
+Utilisé pour présenter ses notes, le brief, l'inventaire, un travail d'analyse ou encore lister ses inspirations par ex.
 
-Au dela: Grille de produit, les photos doivent être de base assez grandes pour bien voir les produits.
+#### Table des matières
+Une table des matières dynamique permet de se déplacer dans le fichier pour accéder à la partie recherchée. Cette table sera fixe et l'on pourra scroller à l'intérieur si son contenu est dépasse la vue.
 
-Trouver une direction photo pour la présentation des objets. On pourrait on avoir un rapport d'échelle pour que les objets soit proportionnels entre eux. Avoir par ex. Trois type de cadrage ou gabarit photos: small, medium, large.
+#### Main content
+Le corps du texte, provenant le plus souvent d'un fichier markdown. Penser à créer des styles pour: 
 
-“Chaque produit est un vrai produit” ne pas noyer les gens en produit. Ligne de trois ou quatre produits. 4 semble être le bon ratio si on peut occuper toute la longueur. Voir cmt ça rend à 5 produits par ligne sur grand écrans. Peut-être est ce trop.
+- Niveaux de titrage
+- Citations
+- Listes (ordonnées et non-ordonnées)
+- tableaux
+- Encart ou apparté ?
 
-### Item-Produit
-- Image de l'objet
-- Nom de l'objet
-- Référence de l'objet
-- Prix
-- Marque (la marque est un tag, au survol on pourrait indiquer combien d'objet nous possédons de la même marque)
+### Présentation
+Penser à un template pour présenter ses idées en direction artistique ou stratégique. Ce template ferait en quelque sorte office de powerpoint. Il permettrait d'articuler son discours point par point à l'aide de visuels.
 
-Y'a t il des patchs, nouveau, promo ou rabais à prévoir ? 
+- Réfléchir plus en détail à son inventaire.
 
-#### [Best Made](http://www.bestmadeco.com)
-Photos sur fond blanc réussies, sonne “vrai objet”. Importance des photos pour susciter le désir.
+### Mockup Design
+Permet de soumettre à validation un design. L'avantage de ce template sera d'observer le design en contexte, directement dans le browser. Une navigation permettra de visionner les précédentes version d'un même objet-design. 
 
-#### [Object of use](http://www.objectsofuse.com/)
-Y'a quelque chose de vrai, qui m'inspire, à creuser.
+L'idée c'est de pouvoir montrer bout par bout l'évolution du travail.
 
-## Page Produit
+#### Idée
+Il y a quelque chose à travailler sur les éléments attendus. En effet, lors de l'inventaire nous pourrions être capable de déterminer quels écrans seront nécessaires à réaliser, et l'on pourrait réfléchir à une page intermédiaire sur laquelle on retrouverait tous les liens vers les dernières versions des éléments de design.
 
-### Image du produit
+### Typographie*
+Le choix d'une typographie est déterminant dans la conduite du projet. C'est une étape primordiale qui doit se faire très rapidement dans le browser.
 
-- Le produit simple sur fond blanc ou neutre
-- Mis en scène
-- Rapport d’échelle et contexte d’utilisation
+Il serait utile d'avoir un template qui me permettrait rapidement de mettre en forme ma selection typo restreinte. Il s'agirait surement ici de développer un bootstrap spécifique à ce genre de réalisation.
 
-#### Note
-Avoir de grande image produit.
+### Style Guide*
+Lorsque je reprend un projet j'ai tendance à oublier les valeurs de bases qui construisent mon design. Il serait bon de réaliser un document qui me permette de les lister afin de m'en rappeler rapidement sans avoir à aller chercher dans le code.
 
-###  Bloc achat
+Peut être s'agit il simplement d'un document de type texte qui listerait les éléments suivants:
 
-- Quantité
-- Variante: couleur
-- Prix
-- Disponibilité: (mode on/off, ou si intéressant, mais à voir, jauge de quantité en magasin. Si pas dispo, champ d’alerte pour salorsque le produit sera à nouveau en stock. Quand le produit sera livré (avec l’option la plus rapide) + argument dans une phrase contextuelle au produit (ex. Opinel : tartinez votre biscotte ce mercredi 12 matin !)
-- Déclinaison du produit : taille, couleur, produit abîmé
-- Bouton Acheter
+- Styles typo
+- Echelle typo
+- Layout (colonnes et goutière)
+- Echelle des espacements
+- Pallet de couleurs
 
-### Infos produit
-- Pitch assez simple et concis du produit.
-- Fabrication du produit ( qui le fabrique, où ça, quelle région )
-- Histoire du produit, sa conception, son origine, son design ou matériau ( année, utilisation, corp de métier )
-- Le plus produit par rapport à son utilisation et sa concurrence directe.
-- Comment entretenir le produit (+lien vers produits si existe)
-- Livraison (Expliquer tous les modes de livraison dès la page produit)
-- Retour (expliquer les conditions de retour).
-
-### Modules
-
-#### Articles consultés récemment
-Les liens vers les produits récemments consultés. A priori en bas de page. Définir combien de produits on retient.
-
-- Mettre les articles du blog en relation avec ce produit en _blank.
-- Module Produit similaires
-- Module Produits qui vont avec
-- Fleches next/prev (comment ça fonctionne techniquement ?)
-
-##### Note
-1. Ne pas quitter la page lorsqu’on ajoute un produit au panier (ajax).
-2. Un espace commentaire ?
+*Evolutions futures, à réfléchir.
 
 
-## Page Contenu texte
+## 3.0 Timetracking
 
-### A propos
-Page qui sera peut être un peu plus travaillé, en mode branding, pour mettre en avant le contexte.
+Je pense qu'il est bon d'aviser son client du temps passé sur son projet dans une visée pédagogique. Le client de perçoit pas forcément le volume du travail engagé. Cela permettrait à la fois d'être réglo envers lui mais aussi d'avoir des arguments pour contenir un afflux de nouvelles demandes.
 
-#### Trouver les différentes parties à écrire:
-- Histoire
-- Conviction
-- Qualité
-- Éthique
+#### Récapitulatif
+- Le temps estimé lors du devis
+- Le total du temps travaillé
+- Une jauge de progression, exprimée en pourcentage
 
-### Livraison
-À écrire.
+#### Détail
+Lui permettre d'avoir accès au détail de mon temps de travail investi. Cela me permettrait de timetracker le temps dans la plateforme et non plus à l'extérieur. C'est aussi utile pour moi en tant qu'archive du projet et du temps passé.
 
-### Retours
-À écrire.
-
-### CGU
-
-
-## Page Panier
-
-### "Old e-commerce problem: sites that make it difficult to know when an item is added to the shopping cart." 
-
-Avoir un effet de feedback. Sur la page produit on pourrait transformer l'état du bouton ajouter panier, sa couleur, ou mettre une pastille produit ajouté au panier.
-
-#### Ajout panier
-Ne pas diriger l'utilisateur sur la page panier, lui permettre de continuer à farfouiner. 
-- Soit le laisser ou il est et se démerder
-- Soit lui proposer d'autre produit
-- Soit avoir des actions à portée de main (next, prev, categorie…)
-
-## Page Wishlist (à réfléchir pour dans une V2)
-
-##  Page Blog
-
-Trouver une série de post types afin d'aider Alex à produire un contenu standardisé.
-
-##  Page Compte
-
-##  Page Résultat de recherche
-
-##  Tunnel de paiement
+- Date (jour, mois)
+- Session de travail
+  - Heure de début
+  - Heure de fin
+  - Tache réalisée
+  - Temps total

@@ -1,0 +1,81 @@
+// BUTTONS
+// ---------------------------------------------------------------------------- //
+
+// TODO: Définir les styles
+// TODO: Organiser le code
+
+button 
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -webkit-appearance: none
+  outline: none
+  margin: 0
+  border: 0
+  padding: 0
+  background-color: transparent
+  cursor: pointer
+
+// Placeholder
+// ---------------------------------------------------------------------------- //
+
+%button 
+  display: inline-block
+  outline: none
+  text-decoration: none
+  &:hover
+    text-decoration: none
+
+
+// Colors
+// ---------------------------------------------------------------------------- //
+
+
+// Size
+// ---------------------------------------------------------------------------- //
+
+
+
+// Display
+// ---------------------------------------------------------------------------- //
+
+.button-full
+  display: block
+  text-align: center
+
+
+// Primary button
+// ---------------------------------------------------------------------------- //
+.button
+  @extend %button
+  @extend .font-small
+  padding: $space-tiny $space-small ($space-tiny/2)
+  border: 2px solid $grey-lighter
+  +border-radius(3px)
+  color: $color-text-normal
+  &:hover
+    color: $color-text-accent
+    border-color: $red-lighter
+    &:before
+      color: $red-light
+
+.button-back
+  &:before
+    position: relative
+    content: "❮"
+    padding-right: $space-tiny
+    color: $grey-light
+    top: 1px
+    left: -2px
+
+// Secondary button
+// ---------------------------------------------------------------------------- //
+
+
+
+// Accent button
+// ---------------------------------------------------------------------------- //
+
+
+
+

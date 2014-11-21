@@ -1,0 +1,171 @@
+// LAYOUT
+// ------------------------------------------------------------ //
+//
+// Adapted from Dead Simple Grid (c) 2012 Vladimir Agafonkin
+// https://github.com/mourner/dead-simple-grid
+
+
+.col
+  padding: 0 $gutter
+
+.row
+  position: relative
+
+.row:before,
+.row:after
+  content: " "
+  display: table
+
+.row:after
+  clear: both
+
+.row 
+  .row
+    margin-left: (-$gutter)
+    margin-right: (-$gutter)
+
+@media only screen
+  .col
+    float: left
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+
+// Columns
+// ------------------------------------------------------------ //
+
+// To eight --------------------------------------------------- //
+
+.one-to-eight
+  +sized-from( $break-small, 12.5% ) 
+
+.two-to-eight
+  width: 100%
+  +sized-from( $break-medium, 25% )
+
+.three-to-eight
+  width: 100%
+  +sized-from( $break-medium, 37.5% ) 
+
+.four-to-eight
+  width: 100%
+  +sized-from( $break-medium, 50% )
+
+.five-to-eight
+  width: 100%
+  +sized-from( $break-medium, 62.5% )
+
+.six-to-eight
+  width: 100%
+  +sized-from( $break-medium, 75% )
+
+.seven-to-eight
+  +sized-from( $break-medium, 87.5% )  
+
+.eight-to-eight
+  width: 100%
+
+
+// To five ----------------------------------------------------- //
+
+.one-to-five
+  +sized-from( $break-small, 20% )  
+
+.two-to-five
+  +sized-from( $break-small, 40% )
+
+.three-to-five
+  +sized-from( $break-small, 60% )
+
+.four-to-five
+  +sized-from( $break-small, 80% )
+
+.five-to-five
+  width: 100%
+
+
+
+// To six ----------------------------------------------------- //
+
+.one-to-six
+  +sized-from( $break-small, 16.666667% )  
+
+.two-to-six
+  width: 100%
+  +sized-from( $break-medium, 33.333333% )
+
+.three-to-six
+  +sized-from( $break-small, 50% )
+
+.four-to-six
+  +sized-from( $break-small, 100% )
+  +sized-from( $break-medium, 66.666666% )
+
+.five-to-six
+  +sized-from( $break-small, 83.333333% )
+
+.six-to-six
+  width: 100%
+
+// To four ---------------------------------------------------- //
+
+.one-to-four
+  width: 100%
+  +sized-from( $break-medium, 25% )    
+
+.two-to-four
+  width: 100%
+  +sized-from( $break-medium, 50% )  
+
+.three-to-four
+  width: 100%
+  +sized-from( $break-medium, 75% )  
+
+.four-to-four
+  width: 100% 
+
+// To three --------------------------------------------------- //
+
+.one-to-three
+  +sized-from( $break-small, 33.333333% )
+
+.two-to-three
+  +sized-from( $break-small, 66.666666% )  
+
+.three-to-three
+  width: 100% 
+
+// To two ----------------------------------------------------- //
+
+.one-to-two
+  +sized-from( $break-small, 50% )  
+
+.two-to-two
+  width: 100% 
+
+
+// Push
+// ------------------------------------------------------------ //
+
+.push-1-4
+  @media screen and (min-width: $break-medium)
+    margin-left: 25%
+
+.push-2-4
+  @media screen and (min-width: $break-medium)
+    margin-left: 50%
+
+.push-3-4
+  @media screen and (min-width: $break-medium)
+    margin-left: 75%
+
+
+// Pull
+// ------------------------------------------------------------ //
+
+.pull-1
+  margin-right: 12.5%
+
+

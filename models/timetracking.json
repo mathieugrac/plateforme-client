@@ -1,0 +1,80 @@
+{
+    "estimate": "35",
+    "timetracking": [
+        {
+            "day": "27 oct",
+            "work": [
+                {
+                    "start": "10:00",
+                    "end": "11:00",
+                    "note": "Page timeline, module progression, terminer .js et les calculs"
+                },
+                {
+                    "start": "11:00",
+                    "end": "12:10",
+                    "note": "Layout Design , amélioration de la navigation"
+                },
+                {
+                    "start": "14:10",
+                    "end": "17:10",
+                    "note": "Remplir le template de texte"
+                }
+            ]
+        },
+        {
+            "day": "26 oct",
+            "work": [
+                {
+                    "start": "09:30",
+                    "end": "11:30",
+                    "note": "Page timeline, fix layout de la page Texte"
+                },
+                {
+                    "start": "12:00",
+                    "end": "13:20",
+                    "note": "Timetracking, mise en forme et récupération des données"
+                },
+                {
+                    "start": "14:30",
+                    "end": "16:30",
+                    "note": "Timetracking, mise en forme et récupération des données"
+                }
+            ]
+        },
+        {
+            "day": "25 oct",
+            "work": [
+                {
+                    "start": "14:30",
+                    "end": "15:40",
+                    "note": "Refonte du module timeline"
+                }
+            ]
+        },
+        {
+            "day": "24 oct",
+            "work": [
+                {
+                    "start": "14:40",
+                    "end": "16:10",
+                    "note": "Layout Text et table-of-content"
+                },
+                {
+                     "start": "10:40",
+                    "end": "13:20",
+                    "note": "Redéfinition des styles: a, ul, table"   
+                }
+            ]
+        },
+        {
+            "day": "23 oct",
+            "work": [
+                {
+                     "start": "15:40",
+                    "end": "19:00",
+                    "note": "Redéfinition des styles typo"
+                }
+            ]
+        }
+    ]
+}

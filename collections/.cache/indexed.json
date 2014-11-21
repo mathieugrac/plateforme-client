@@ -1,255 +1,222 @@
 {
   "deliverable": {
     "collection": {
-      "/deliverable/header-v3": {
-        "body": "\n\n<section class=\"design-container\">\n  <img class=\"design-image\" src=\"/assets/img/gubb-and-mackie.jpg\" alt=\"\">\n</section>",
-        "mixture_month_year": "05/2014",
-        "year": "2014",
-        "layout": "design-layout",
-        "tags": [
-          "deliverable"
-        ],
-        "slug": "/deliverable/header-v3",
-        "ticks": 1401189300.0,
-        "mixture_date": "2014-05-27T11:15:00Z",
-        "month": "05",
-        "title": "header",
-        "published": true,
-        "date": "Tue May 27 11:15:00 UTC 2014"
-      },
-      "/deliverable/header-v2": {
-        "body": "\n\n\n<section class=\"keynote-section\">\n\n  <div class=\"keynote-text\">\n    <h1>Header V2</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n\n</section>",
-        "mixture_month_year": "05/2014",
-        "year": "2014",
-        "layout": "design-layout",
-        "tags": [
-          "deliverable"
-        ],
-        "slug": "/deliverable/header-v2",
-        "ticks": 1401189000.0,
-        "mixture_date": "2014-05-27T11:10:00Z",
-        "month": "05",
-        "title": "header",
-        "published": true,
-        "date": "Tue May 27 11:10:00 UTC 2014"
-      },
-      "/deliverable/header-v1": {
-        "body": "\n\n\n<section class=\"keynote-section\">\n\n  <div class=\"keynote-text\">\n    <h1>Header V1</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n\n</section>",
-        "mixture_month_year": "05/2014",
-        "year": "2014",
-        "layout": "design-layout",
-        "tags": [
-          "deliverable"
-        ],
-        "slug": "/deliverable/header-v1",
-        "ticks": 1401188400.0,
-        "mixture_date": "2014-05-27T11:00:00Z",
-        "month": "05",
-        "title": "header",
-        "published": true,
-        "date": "Tue May 27 11:00:00 UTC 2014"
-      },
       "/deliverable/visual-research": {
-        "body": "\n\n<section class=\"keynote-section\">\n\n  <div class=\"keynote-text\">\n    <h1>Couleur</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/gubb-and-mackie.jpg\" alt=\"\">\n    <figcaption>This is a description of the document</figcaption>\n  </figure>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/dieter-rams.jpg\" alt=\"\">\n    <figcaption>This is a description of the document but a bit long compare to the other, it's to test on several lines of text.</figcaption>\n  </figure>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/maquette-braun.jpg\" alt=\"\">\n    <figcaption>This is a description of the document</figcaption>\n  </figure>\n\n</section>\n\n<section class=\"keynote-section\">\n  <div class=\"keynote-text\">\n    <h1>Layout</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n</section>\n",
-        "mixture_month_year": "05/2014",
-        "year": "2014",
-        "layout": "keynote-layout",
+        "slug": "/deliverable/visual-research",
         "tags": [
           "deliverable"
         ],
-        "slug": "/deliverable/visual-research",
-        "ticks": 1401101460.0,
-        "mixture_date": "2014-05-26T10:51:00Z",
-        "month": "05",
-        "title": "Visual Research",
+        "date": "2014-05-26 10:51:00 UTC",
+        "body": "\n\n<section class=\"keynote-section\">\n\n  <div class=\"keynote-text\">\n    <h1>Couleur</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/gubb-and-mackie.jpg\" alt=\"\">\n    <figcaption>This is a description of the document</figcaption>\n  </figure>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/dieter-rams.jpg\" alt=\"\">\n    <figcaption>This is a description of the document but a bit long compare to the other, it's to test on several lines of text.</figcaption>\n  </figure>\n\n  <figure class=\"keynote-doc\">\n    <img src=\"/assets/img/maquette-braun.jpg\" alt=\"\">\n    <figcaption>This is a description of the document</figcaption>\n  </figure>\n\n</section>\n\n<section class=\"keynote-section\">\n  <div class=\"keynote-text\">\n    <h1>Layout</h1>\n    <p>Last year, SuperFriendly did some work with our friend Garrett Dimon to help him establish a new design direction for Sifter, his issue-tracking product (new site coming soon). Here’s the visual inventory we sent over to him:</p>\n  </div>\n</section>\n",
         "published": true,
-        "date": "Mon May 26 10:51:00 UTC 2014"
+        "layout": "keynote-layout",
+        "title": "Visual Research",
+        "month": "05",
+        "year": "2014",
+        "ticks": 1401101460.0,
+        "mixture_month_year": "05/2014",
+        "mixture_date": "2014-05-26T10:51:00Z"
       },
       "/deliverable/inventaire": {
-        "body": "\n<h1>Inventaire</h1>\n\n<h2>Page Accueil</h2>\n\n<h3>Navigation</h3>\n\n<h4>Premier niveau, Univers (Départements, Collection, Catégorie, thème)</h4>\n\n<ul>\n  <li>Tous les produits (prix, materiau, provenance)</li>\n  <li>Bureau (fourniture de bureau, papeterie)</li>\n  <li>Outils ( entretien, couture, bricolage, diy )</li>\n  <li>Maison / Intérieur / </li>\n  <li>Jardin</li>\n  <li>Grooming / Beauté / Soin / Salle de bain </li>\n  <li>Accessoires</li>\n  <li>Outdoor / Extérieur / Plein air / Excursion</li>\n  <li>Jeux</li>\n  <li>(Marque Perso, peut arriver plus tard)</li>\n  <li>Recherche</li>\n</ul>\n\n<p>Avoir accès en permanence à toutes les catégorie d’objet.</p>\n\n<h4>Deuxieme niveau</h4>\n\n<ul>\n  <li>A propos\n    <ul>\n      <li>Qui sommes nous</li>\n      <li>livraison</li>\n      <li>retour</li>\n      <li>cgu</li>\n    </ul>\n  </li>\n  <li>Blog</li>\n  <li>Panier</li>\n  <li>Mon compte\n    <ul>\n      <li>Vos commandes</li>\n      <li>Informations perso</li>\n      <li>bon de réductions</li>\n      <li>avoir</li>\n      <li>Mes adresses</li>\n      <li>mes alertes</li>\n    </ul>\n  </li>\n</ul>\n\n<h4>Footer</h4>\n<ul>\n  <li>Newsletter (à mettre en avant au début de la vie du site</li>\n  <li>A propos</li>\n  <li>Retour</li>\n  <li>Livraison</li>\n  <li>Contact</li>\n  <li>Réseaux sociaux (pinterest, facebook, twitter)</li>\n  <li>Cgu</li>\n  <li>Mention légales</li>\n</ul>\n\n<h3>Modules en page d&#8217;accueil</h3>\n\n<h4>Newsletter</h4>\n<p>Pousser à l&#8217;inscription à la newsletter</p>\n\n<h4>Offrez des bons cadeau</h4>\n<p>Bon d’achat à offrir + filtrer tous les produits par palier de prix.</p>\n\n<h2>Page Catégorie</h2>\n\n<p>Sur mobile: voir comment les produits rendent sous forme de liste avec image 1/4 et texte 3/4.</p>\n\n<p>Au dela: Grille de produit, les photos doivent être de base assez grandes pour bien voir les produits.</p>\n\n<p>Trouver une direction photo pour la présentation des objets. On pourrait on avoir un rapport d&#8217;échelle pour que les objets soit proportionnels entre eux. Avoir par ex. Trois type de cadrage ou gabarit photos: small, medium, large.</p>\n\n<p>“Chaque produit est un vrai produit” ne pas noyer les gens en produit. Ligne de trois ou quatre produits. 4 semble être le bon ratio si on peut occuper toute la longueur. Voir cmt ça rend à 5 produits par ligne sur grand écrans. Peut-être est ce trop.</p>\n\n<h3>Item-Produit</h3>\n<ul>\n  <li>Image de l&#8217;objet</li>\n  <li>Nom de l&#8217;objet</li>\n  <li>Référence de l&#8217;objet</li>\n  <li>Prix</li>\n  <li>Marque (la marque est un tag, au survol on pourrait indiquer combien d&#8217;objet nous possédons de la même marque)</li>\n</ul>\n\n<p>Y&#8217;a t il des patchs, nouveau, promo ou rabais à prévoir ? </p>\n\n<h4><a href=\"http://www.bestmadeco.com\">Best Made</a></h4>\n<p>Photos sur fond blanc réussies, sonne “vrai objet”. Importance des photos pour susciter le désir.</p>\n\n<h4><a href=\"http://www.objectsofuse.com/\">Object of use</a></h4>\n<p>Y&#8217;a quelque chose de vrai, qui m&#8217;inspire, à creuser.</p>\n\n<h2>Page Produit</h2>\n\n<h3>Image du produit</h3>\n\n<ul>\n  <li>Le produit simple sur fond blanc ou neutre</li>\n  <li>Mis en scène</li>\n  <li>Rapport d’échelle et contexte d’utilisation</li>\n</ul>\n\n<h4>Note</h4>\n<p>Avoir de grande image produit.</p>\n\n<h3>Bloc achat</h3>\n\n<ul>\n  <li>Quantité</li>\n  <li>Variante: couleur</li>\n  <li>Prix</li>\n  <li>Disponibilité: (mode on/off, ou si intéressant, mais à voir, jauge de quantité en magasin. Si pas dispo, champ d’alerte pour salorsque le produit sera à nouveau en stock. Quand le produit sera livré (avec l’option la plus rapide) + argument dans une phrase contextuelle au produit (ex. Opinel : tartinez votre biscotte ce mercredi 12 matin !)</li>\n  <li>Déclinaison du produit : taille, couleur, produit abîmé</li>\n  <li>Bouton Acheter</li>\n</ul>\n\n<h3>Infos produit</h3>\n<ul>\n  <li>Pitch assez simple et concis du produit.</li>\n  <li>Fabrication du produit ( qui le fabrique, où ça, quelle région )</li>\n  <li>Histoire du produit, sa conception, son origine, son design ou matériau ( année, utilisation, corp de métier )</li>\n  <li>Le plus produit par rapport à son utilisation et sa concurrence directe.</li>\n  <li>Comment entretenir le produit (+lien vers produits si existe)</li>\n  <li>Livraison (Expliquer tous les modes de livraison dès la page produit)</li>\n  <li>Retour (expliquer les conditions de retour).</li>\n</ul>\n\n<h3>Modules</h3>\n\n<h4>Articles consultés récemment</h4>\n<p>Les liens vers les produits récemments consultés. A priori en bas de page. Définir combien de produits on retient.</p>\n\n<ul>\n  <li>Mettre les articles du blog en relation avec ce produit en _blank.</li>\n  <li>Module Produit similaires</li>\n  <li>Module Produits qui vont avec</li>\n  <li>Fleches next/prev (comment ça fonctionne techniquement ?)</li>\n</ul>\n\n<h5>Note</h5>\n<ol>\n  <li>Ne pas quitter la page lorsqu’on ajoute un produit au panier (ajax).</li>\n  <li>Un espace commentaire ?</li>\n</ol>\n\n<h2>Page Contenu texte</h2>\n\n<h3>A propos</h3>\n<p>Page qui sera peut être un peu plus travaillé, en mode branding, pour mettre en avant le contexte.</p>\n\n<h4>Trouver les différentes parties à écrire:</h4>\n<ul>\n  <li>Histoire</li>\n  <li>Conviction</li>\n  <li>Qualité</li>\n  <li>Éthique</li>\n</ul>\n\n<h3>Livraison</h3>\n<p>À écrire.</p>\n\n<h3>Retours</h3>\n<p>À écrire.</p>\n\n<h3>CGU</h3>\n\n<h2>Page Panier</h2>\n\n<h3>&#8220;Old e-commerce problem: sites that make it difficult to know when an item is added to the shopping cart.&#8221;</h3>\n\n<p>Avoir un effet de feedback. Sur la page produit on pourrait transformer l&#8217;état du bouton ajouter panier, sa couleur, ou mettre une pastille produit ajouté au panier.</p>\n\n<h4>Ajout panier</h4>\n<p>Ne pas diriger l&#8217;utilisateur sur la page panier, lui permettre de continuer à farfouiner. <br />\n- Soit le laisser ou il est et se démerder<br />\n- Soit lui proposer d&#8217;autre produit<br />\n- Soit avoir des actions à portée de main (next, prev, categorie…)</p>\n\n<h2>Page Wishlist (à réfléchir pour dans une V2)</h2>\n\n<h2>Page Blog</h2>\n\n<p>Trouver une série de post types afin d&#8217;aider Alex à produire un contenu standardisé.</p>\n\n<h2>Page Compte</h2>\n\n<h2>Page Résultat de recherche</h2>\n\n<h2>Tunnel de paiement</h2>\n",
-        "mixture_month_year": "05/2014",
-        "year": "2014",
-        "layout": "text-layout",
+        "title": "Inventaire",
+        "slug": "/deliverable/inventaire",
+        "published": true,
+        "date": "2014-10-28 14:35:00 UTC",
         "tags": [
           "step"
         ],
-        "slug": "/deliverable/inventaire",
-        "ticks": 1399998600.0,
-        "mixture_date": "2014-05-13T16:30:00Z",
-        "month": "05",
-        "title": "Inventaire",
+        "layout": "text-layout",
+        "body": "\n<h1>Inventaire</h1>\n\n<h2>0.0 Header</h2>\n\n<h4>Infos</h4>\n<ul>\n  <li>Le titre du projet</li>\n  <li>Le nom du client</li>\n</ul>\n\n<h4>Navigation</h4>\n<ul>\n  <li>Timeline</li>\n  <li>Timetrack </li>\n</ul>\n\n<h2>0.0 Footer</h2>\n<p>Pas grand chose à raconter ici. Mettre simplement un crédit.</p>\n\n<h2>1.0 Timeline</h2>\n\n<p>C’est la page principale de la plateforme. C’est ici que l’on retrouvera, dans un ordre chronologique, tous les livrables qui auront été posté au cours de l’evolution du projet.</p>\n\n<h3>timeline-release</h3>\n<p>On distingue trois types d’objets sur la timeline:</p>\n\n<ul>\n  <li>\n    <h4>timeline-release—event</h4>\n    <p>Un moment important dans l’élaboration du projet, le franchissement d’une étape, sans qu’aucun document ne soit lié.</p>\n  </li>\n  <li>\n    <h4>timeline-release—deliverable</h4>\n    <p>C’est le principal type de post qui permet de partager le resultat d’une étape de travail. Il s’agit d’un lien pointant soit vers un document extérieur, soit vers un document hébergé sur la plateforme (voir templates).</p>\n  </li>\n  <li>\n    <h4>timeline-release—next</h4>\n    <p>Nous permets d’indiquer au client ce sur quoi nous sommes en train de travailler. Annonce le futur livrable.</p>\n  </li>\n</ul>\n\n<h2>2.0 Templates</h2>\n<p>Il s’agit de réaliser différents template de page propices au type de contenu à présenter au client.</p>\n\n<h3>Texte</h3>\n<p>Utilisé pour présenter ses notes, le brief, l’inventaire, un travail d’analyse ou encore lister ses inspirations par ex.</p>\n\n<h4>Table des matières</h4>\n<p>Une table des matières dynamique permet de se déplacer dans le fichier pour accéder à la partie recherchée. Cette table sera fixe et l’on pourra scroller à l’intérieur si son contenu est dépasse la vue.</p>\n\n<h4>Main content</h4>\n<p>Le corps du texte, provenant le plus souvent d’un fichier markdown. Penser à créer des styles pour: </p>\n\n<ul>\n  <li>Niveaux de titrage</li>\n  <li>Citations</li>\n  <li>Listes (ordonnées et non-ordonnées)</li>\n  <li>tableaux</li>\n  <li>Encart ou apparté ?</li>\n</ul>\n\n<h3>Présentation</h3>\n<p>Penser à un template pour présenter ses idées en direction artistique ou stratégique. Ce template ferait en quelque sorte office de powerpoint. Il permettrait d’articuler son discours point par point à l’aide de visuels.</p>\n\n<ul>\n  <li>Réfléchir plus en détail à son inventaire.</li>\n</ul>\n\n<h3>Mockup Design</h3>\n<p>Permet de soumettre à validation un design. L’avantage de ce template sera d’observer le design en contexte, directement dans le browser. Une navigation permettra de visionner les précédentes version d’un même objet-design. </p>\n\n<p>L’idée c’est de pouvoir montrer bout par bout l’évolution du travail.</p>\n\n<h4>Idée</h4>\n<p>Il y a quelque chose à travailler sur les éléments attendus. En effet, lors de l’inventaire nous pourrions être capable de déterminer quels écrans seront nécessaires à réaliser, et l’on pourrait réfléchir à une page intermédiaire sur laquelle on retrouverait tous les liens vers les dernières versions des éléments de design.</p>\n\n<h3>Typographie*</h3>\n<p>Le choix d’une typographie est déterminant dans la conduite du projet. C’est une étape primordiale qui doit se faire très rapidement dans le browser.</p>\n\n<p>Il serait utile d’avoir un template qui me permettrait rapidement de mettre en forme ma selection typo restreinte. Il s’agirait surement ici de développer un bootstrap spécifique à ce genre de réalisation.</p>\n\n<h3>Style Guide*</h3>\n<p>Lorsque je reprend un projet j’ai tendance à oublier les valeurs de bases qui construisent mon design. Il serait bon de réaliser un document qui me permette de les lister afin de m’en rappeler rapidement sans avoir à aller chercher dans le code.</p>\n\n<p>Peut être s’agit il simplement d’un document de type texte qui listerait les éléments suivants:</p>\n\n<ul>\n  <li>Styles typo</li>\n  <li>Echelle typo</li>\n  <li>Layout (colonnes et goutière)</li>\n  <li>Echelle des espacements</li>\n  <li>Pallet de couleurs</li>\n</ul>\n\n<p>*Evolutions futures, à réfléchir.</p>\n\n<h2>3.0 Timetracking</h2>\n\n<p>Je pense qu’il est bon d’aviser son client du temps passé sur son projet dans une visée pédagogique. Le client de perçoit pas forcément le volume du travail engagé. Cela permettrait à la fois d’être réglo envers lui mais aussi d’avoir des arguments pour contenir un afflux de nouvelles demandes.</p>\n\n<h4>Récapitulatif</h4>\n<ul>\n  <li>Le temps estimé lors du devis</li>\n  <li>Le total du temps travaillé</li>\n  <li>Une jauge de progression, exprimée en pourcentage</li>\n</ul>\n\n<h4>Détail</h4>\n<p>Lui permettre d’avoir accès au détail de mon temps de travail investi. Cela me permettrait de timetracker le temps dans la plateforme et non plus à l’extérieur. C’est aussi utile pour moi en tant qu’archive du projet et du temps passé.</p>\n\n<ul>\n  <li>Date (jour, mois)</li>\n  <li>Session de travail\n    <ul>\n      <li>Heure de début</li>\n      <li>Heure de fin</li>\n      <li>Tache réalisée</li>\n      <li>Temps total</li>\n    </ul>\n  </li>\n</ul>\n",
+        "month": "10",
+        "year": "2014",
+        "ticks": 1414506900.0,
+        "mixture_month_year": "10/2014",
+        "mixture_date": "2014-10-28T14:35:00Z"
+      },
+      "/deliverable/process": {
+        "title": "Process",
+        "slug": "/deliverable/process",
         "published": true,
-        "date": "Tue May 13 16:30:00 UTC 2014"
+        "date": "2014-10-28 14:35:00 UTC",
+        "tags": [
+          "step"
+        ],
+        "layout": "text-layout",
+        "body": "\n<h1>Process Design</h1>\n\n<h2>Introduction</h2>\n<p>Cette plateforme doit me permettre de tenir le cap de mon avancement sur chaque projet. Elle doit être le reflet de ma méthodologie de travail pour me forcer à m’y contraindre et éviter d’être bloqué au cours du projet.</p>\n\n<p>Ce document à pour but de faire le point sur les opérations récurrentes qui constitue ma méthodologie de travail.</p>\n\n<h2>Process</h2>\n\n<h3>1. La demande</h3>\n<p>La première chose à faire est d’écouter le client sur ces besoins, poser un maximum de questions pour comprendre de quoi il en retourne. Ressort de cette discution un certain nombre d’éléments.</p>\n\n<ul>\n  <li>Type de site</li>\n  <li>L’univers-métier lié au site</li>\n  <li>La nature de la demande</li>\n  <li>le/les objectifs poursuivit</li>\n  <li>La cible du site</li>\n</ul>\n\n<p>En général je vais transformer mes notes en brief et les soumettre au client afin de bien être sûr d’avoir compris sa demande.</p>\n\n<h3>2. Documentation</h3>\n<p>Ensuite il s’agit de se documenter sur le secteur d’activité du client et de faire des recherches préliminaires pour trouver les différents acteurs (et sites) concurrents ou reliés à son activité.</p>\n\n<ul>\n  <li>Analyse</li>\n  <li>Concurrence</li>\n</ul>\n\n<h3>3. Insight</h3>\n<p>Faire la somme des éléments récoltés, établir les forces et faiblesse du projet pour distinguer la spécificté de la demande. Généralement le client ne voit pas a delà de son besoin. Il s’agit pour moi de reformuler ses attentes sous un angle nouveau qui sera le fil directeur du projet.</p>\n\n<p>Cet insight sera le point de départ des réflexions sur la fonctionnalité, la tonalité, l’ergonomie et la direction artistique du projet.</p>\n\n<h3>4. Inventaire</h3>\n<p>Concevoir le site sous forme d’inventaire. Lister toutes les parties et les fonctionnalités attendues. Allez au maximum du détail selon l’état de ses connaissance du projet.</p>\n\n<p>L’inventaire permet un premier travail sur l’architecture de l’information.</p>\n\n<p>Soumettre cet inventaire et itérer avec le client. Au Besoin, réaliser un prototype pour mettre en espace cet inventaire.</p>\n\n<ul>\n  <li>Création d’un document listant le contenu (Google Spreadsheet).</li>\n  <li>Faire un bootstrap de proto ?</li>\n</ul>\n\n<h3>5. Direction artistique</h3>\n<p>A partir de l’insight, faire des recherches sur la dimension graphique du site. Dans un premier temps il faut se constituer un brief exprimant les intentions et effets émotionnels visés. Ensuite, se mettre à la recherche de site exprimant les même valeurs, analyser et documenter les codes utilisés. Je dirais donc qu’il y a un travail en deux temps. </p>\n\n<ul>\n  <li>Brief d’intention</li>\n  <li>Présentation documentée de la direction choisie</li>\n</ul>\n\n<h3>6. Typographie et couleur</h3>\n\n<p>Faire des recherches de typo et de palettes, proposer une selection restrainte au client, consultable dans le browser afin de prévenir toute incompatibilité typo.</p>\n\n<p>Pour se faire, il serait bon de constituer une page générique qui possèderait un maximum d’éléments concrets (première idée de layout, utilisation d’une iconographie ou de textes existant). Être au plus proche de la réalité du site dans la mesure des moyens à disposition lors de cette étape.</p>\n\n<h3>7. Ergonomie et interface</h3>\n<p>(UI Design) L’architecture de l’information intervient dès le travail sur l’inventaire.</p>\n\n<h3>8. Langage visuel</h3>\n<p>(Visual Design) Choisir la page la plus représentative du projet et travailler le design visuel de la page. Itérer avec le client.</p>\n\n<ul>\n  <li>Définir les règles et mesures graphiques</li>\n  <li>Etablir les styles des principaux composants</li>\n  <li>Designer la liste de principaux modules (cf. inventaire)</li>\n</ul>\n\n<p>! Le plus dur encore c’est d’avancer à la fois sur une vision micro et macro.</p>\n",
+        "month": "10",
+        "year": "2014",
+        "ticks": 1414506900.0,
+        "mixture_month_year": "10/2014",
+        "mixture_date": "2014-10-28T14:35:00Z"
+      },
+      "/deliverable/template-texte": {
+        "title": "template texte",
+        "slug": "/deliverable/template-texte",
+        "published": true,
+        "date": "2014-05-27 11:15:00 UTC",
+        "tags": [
+          "deliverable"
+        ],
+        "layout": "design-layout",
+        "body": "\n\n<img class=\"design-image\" src=\"/assets/img/inventaire/inventaire-v3.jpg\" alt=\"\">\n<img class=\"design-image\" src=\"/assets/img/inventaire/inventaire-v2.jpg\" alt=\"\">\n<img class=\"design-image\" src=\"/assets/img/inventaire/inventaire-v1.jpg\" alt=\"\">",
+        "month": "05",
+        "year": "2014",
+        "ticks": 1401189300.0,
+        "mixture_month_year": "05/2014",
+        "mixture_date": "2014-05-27T11:15:00Z"
       }
     },
     "index": {
       "slug": {
-        "/deliverable/header-v1": [
-          "/deliverable/header-v1"
-        ],
-        "/deliverable/header-v2": [
-          "/deliverable/header-v2"
-        ],
-        "/deliverable/header-v3": [
-          "/deliverable/header-v3"
-        ],
         "/deliverable/visual-research": [
           "/deliverable/visual-research"
         ],
         "/deliverable/inventaire": [
           "/deliverable/inventaire"
+        ],
+        "/deliverable/process": [
+          "/deliverable/process"
+        ],
+        "/deliverable/template-texte": [
+          "/deliverable/template-texte"
+        ]
+      },
+      "transliterated-slug": {
+        "/deliverable/visual-research": [
+          "/deliverable/visual-research"
+        ],
+        "/deliverable/inventaire": [
+          "/deliverable/inventaire"
+        ],
+        "/deliverable/process": [
+          "/deliverable/process"
+        ],
+        "/deliverable/template-texte": [
+          "/deliverable/template-texte"
         ]
       },
       "tags": {
-        "step": [
-          "/deliverable/inventaire"
-        ],
         "deliverable": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1",
-          "/deliverable/visual-research"
+          "/deliverable/visual-research",
+          "/deliverable/template-texte"
+        ],
+        "step": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
+        ]
+      },
+      "transliterated-tags": {
+        "deliverable": [
+          "/deliverable/visual-research",
+          "/deliverable/template-texte"
+        ],
+        "step": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
         ]
       },
       "layout": {
-        "design-layout": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1"
-        ],
-        "text-layout": [
-          "/deliverable/inventaire"
-        ],
         "keynote-layout": [
           "/deliverable/visual-research"
+        ],
+        "text-layout": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
+        ],
+        "design-layout": [
+          "/deliverable/template-texte"
         ]
       },
-      "year": {
-        "2014": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1",
-          "/deliverable/visual-research",
-          "/deliverable/inventaire"
-        ]
-      },
-      "mixture_month_year": {
-        "05/2014": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1",
-          "/deliverable/visual-research",
-          "/deliverable/inventaire"
-        ]
-      },
-      "transliterated-title": {
-        "visual-research": [
+      "transliterated-layout": {
+        "keynote-layout": [
           "/deliverable/visual-research"
         ],
-        "header": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1"
+        "text-layout": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
         ],
-        "inventaire": [
-          "/deliverable/inventaire"
-        ]
-      },
-      "ticks": {
-        "1399998600.0": [
-          "/deliverable/inventaire"
-        ],
-        "1401101460.0": [
-          "/deliverable/visual-research"
-        ],
-        "1401188400.0": [
-          "/deliverable/header-v1"
-        ],
-        "1401189300.0": [
-          "/deliverable/header-v3"
-        ],
-        "1401189000.0": [
-          "/deliverable/header-v2"
+        "design-layout": [
+          "/deliverable/template-texte"
         ]
       },
       "title": {
         "visual research": [
           "/deliverable/visual-research"
         ],
-        "header": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1"
+        "inventaire": [
+          "/deliverable/inventaire"
+        ],
+        "process": [
+          "/deliverable/process"
+        ],
+        "template texte": [
+          "/deliverable/template-texte"
+        ]
+      },
+      "transliterated-title": {
+        "visual-research": [
+          "/deliverable/visual-research"
         ],
         "inventaire": [
           "/deliverable/inventaire"
+        ],
+        "process": [
+          "/deliverable/process"
+        ],
+        "template-texte": [
+          "/deliverable/template-texte"
         ]
       },
       "month": {
         "05": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1",
           "/deliverable/visual-research",
-          "/deliverable/inventaire"
+          "/deliverable/template-texte"
+        ],
+        "10": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/deliverable/visual-research",
+          "/deliverable/inventaire",
+          "/deliverable/process",
+          "/deliverable/template-texte"
+        ]
+      },
+      "ticks": {
+        "1401101460.0": [
+          "/deliverable/visual-research"
+        ],
+        "1414506900.0": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
+        ],
+        "1401189300.0": [
+          "/deliverable/template-texte"
+        ]
+      },
+      "mixture_month_year": {
+        "05/2014": [
+          "/deliverable/visual-research",
+          "/deliverable/template-texte"
+        ],
+        "10/2014": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
         ]
       },
       "mixture_date": {
-        "2014-05-27t11:00:00z": [
-          "/deliverable/header-v1"
-        ],
         "2014-05-26t10:51:00z": [
           "/deliverable/visual-research"
         ],
-        "2014-05-27t11:10:00z": [
-          "/deliverable/header-v2"
+        "2014-10-28t14:35:00z": [
+          "/deliverable/inventaire",
+          "/deliverable/process"
         ],
         "2014-05-27t11:15:00z": [
-          "/deliverable/header-v3"
-        ],
-        "2014-05-13t16:30:00z": [
-          "/deliverable/inventaire"
-        ]
-      },
-      "transliterated-slug": {
-        "/deliverable/header-v1": [
-          "/deliverable/header-v1"
-        ],
-        "/deliverable/header-v2": [
-          "/deliverable/header-v2"
-        ],
-        "/deliverable/header-v3": [
-          "/deliverable/header-v3"
-        ],
-        "/deliverable/visual-research": [
-          "/deliverable/visual-research"
-        ],
-        "/deliverable/inventaire": [
-          "/deliverable/inventaire"
-        ]
-      },
-      "transliterated-tags": {
-        "step": [
-          "/deliverable/inventaire"
-        ],
-        "deliverable": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1",
-          "/deliverable/visual-research"
-        ]
-      },
-      "transliterated-layout": {
-        "design-layout": [
-          "/deliverable/header-v3",
-          "/deliverable/header-v2",
-          "/deliverable/header-v1"
-        ],
-        "text-layout": [
-          "/deliverable/inventaire"
-        ],
-        "keynote-layout": [
-          "/deliverable/visual-research"
+          "/deliverable/template-texte"
         ]
       }
     }

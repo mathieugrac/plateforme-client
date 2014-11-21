@@ -1,0 +1,105 @@
+// BORDERS
+// ------------------------------------------------------------ //
+
+.timeline
+  position: relative
+  &:after
+    position: absolute
+    content: ""
+    display: block
+    z-index: 1
+    width: $space-tiny + $space-normal
+    height: $space-tiny + $space-normal
+    background-color: $grey-light
+    border: 4px solid white
+    +border-radius($space-tiny + $space-normal)
+    bottom: -18px
+    left: -12px
+
+.timeline-release
+  position: relative
+  border-left: $border-normal
+  padding-left: $space-medium
+  padding-bottom: $space-xlarge
+  h2
+    color: $color-text-dark
+  h3 
+    @extend .h4
+    color: $grey-light
+    margin-bottom: $space-tiny
+  a
+    span 
+      @extend .font-small
+      @extend .font-uppercase
+      background-color: $red-lighter
+      +border-radius($space-tiny/2)
+      padding: 4px 5px 0
+    &:visited
+      // color: $color-text-normal        
+  &:last-child
+    padding-bottom: $space-huge
+    z-index: 2
+
+
+.timeline-release--deliverable
+  @extend .timeline-release    
+  &:before
+    position: absolute
+    content: ""
+    display: block
+    width: $space-small
+    height: $space-small
+    border: $border-normal
+    border-color: $grey-medium
+    background-color: white
+    +border-radius($space-small)
+    top: -3px
+    left: -15px
+
+.timeline-release--event
+  @extend .timeline-release
+  h2 
+    @extend .paragraph-medium
+  &:before
+    position: absolute
+    content: ""
+    display: block
+    width: $space-small
+    height: $space-small
+    border: 1px solid $grey-medium
+    background-color: $grey-medium
+    +border-radius($space-small)
+    top: 2px  
+    left: -10px
+
+.timeline-release--next
+  @extend .timeline-release
+  // padding-bottom: $space-huge
+  margin-bottom: $space-tiny
+  border-color: lighten( $grey-light, 15)
+  h3
+    margin-bottom: 0
+  h2
+    color: $grey-light
+  img, h2
+    display: inline-block
+  img 
+    height: 36px
+
+  &:before
+    position: absolute
+    content: ""
+    display: block
+    width: 0 
+    height: $space-medium + $space-small
+    border-left: 6px dotted lighten( $grey-light, 15)
+    background-color: white
+    top: 0
+    left: -6px
+    // border-left: 3px solid transparent
+    // border-right: 3px solid transparent
+    // border-bottom: 5px solid lighten( $grey-light, 15)
+    // top: -5px
+    // left: -6px
+
+

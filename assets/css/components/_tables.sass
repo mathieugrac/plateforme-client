@@ -1,0 +1,25 @@
+// TABLE
+// ---------------------------------------------------------------------------- //
+
+table 
+  width: 100%
+  border-collapse: collapse
+  margin-bottom: $space-medium
+  border-top: 1px solid $grey-lighter
+  border-bottom: 1px solid $grey-lighter
+  tbody
+    tr
+      &:nth-child(even)
+        background-color: lighten($grey-lighter, 4)
+    td, th 
+      @extend .font-small
+      padding: ($space-tiny+ $space-tiny/2) $space-tiny $space-tiny
+    th
+      color: $color-text-accent
+      width: 50%
+      @media screen and (min-width: $break-small)
+        width: 25%
+    td 
+      width: 50%
+      @media screen and (min-width: $break-small)
+        width: 75%

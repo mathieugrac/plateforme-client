@@ -1,0 +1,70 @@
+// TEXT
+// ------------------------------------------------------------
+
+
+.text
+  max-width: 678px
+  // margin: 0 auto
+
+  // Spacing & style -------------------------------------------- //
+  
+  h1, .h1
+    margin-bottom: $space-xlarge
+  
+  h2, .h2
+    border-bottom: 1px dotted
+    padding-top: $space-normal
+    padding-bottom: $space-tiny
+    margin-top: $space-medium
+    margin-bottom: $space-medium
+    // background-color: $grey-lighter
+  
+  h3, .h3
+    padding-top: $space-normal
+    margin-bottom: $space-small
+  
+  h4, .h4
+    padding-top: $space-small
+    // margin-bottom: $space-tiny
+  
+  p,
+  small,
+  .paragraph-normal, 
+  .paragraph-small, 
+  .paragraph-medium
+    margin-bottom: $space-normal
+  
+  p 
+    &:last-child
+      margin-bottom: 0
+
+  ul, ol
+    @extend .list-bullet
+
+  ol
+    @extend .list-ordered
+
+
+// Text position
+// ------------------------------------------------------------ //
+
+.text-center
+  text-align: center
+
+.text-right
+  text-align: right
+
+.text-justify
+  text-align: justify
+
+
+// Others
+// ------------------------------------------------------------ //
+
+.no-indent
+  text-indent: 0
+
+.no-margin
+  margin-bottom: 0
+
+
