@@ -9,16 +9,17 @@ $(document).ready(function(){
 
     var startTime = $(this).attr('start');
     startTime = startTime.split(':');
+    startTime = (parseInt(startTime[0])*60) + parseInt(startTime[1]);
 
     var endTime = $(this).attr('finish');
     endTime = endTime.split(':');
+    endTime = (parseInt(endTime[0])*60) + parseInt(endTime[1]);
 
-    var totalTime = ( parseInt(endTime[0]) - parseInt(startTime[0]) )+
-      ( ( parseInt(startTime[1])+parseInt(endTime[1]) ) / 60 );
+    var totalTime = (endTime - startTime)/60;
 
     time.push(totalTime);
 
-    var totalTime = totalTime.toFixed(1).replace(".",",");
+    totalTime = totalTime.toFixed(1).replace(".",",");
 
     this.innerHTML = totalTime + " h";
   }

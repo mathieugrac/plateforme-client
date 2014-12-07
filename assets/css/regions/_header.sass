@@ -2,16 +2,41 @@
 // ------------------------------------------------------------
 
 .header
-  padding-top: $space-medium
-  // border-bottom: 1px solid $grey-lighter
-  padding-bottom: $space-medium
+  background-color: $bg-color
   margin-bottom: $space-xlarge
-  h1
-    letter-spacing: -0.03em
-  h1 a
-    color: $color-text-dark
-  .client
-    @extend .font-xlarge
+
+.project-info
+  float: left
+  padding: $space-medium 0 $space-normal
+
+.project-title
+  color: $grey-dark
+  @extend .font-primary-bold
+  @extend .font-medium
+  // @extend .font-uppercase
+
+
+.project-client
+  display: inline-block
+  color: lighten($grey-medium, 10)
+  @extend .font-primary
+  @extend .font-medium
+  margin-left: $space-tiny
+
+.navigation
+  float: right
+  a
+    @extend .font-normal
     @extend .font-primary
     display: inline-block
-    color: lighten($grey-medium, 10)
+    padding: $space-medium 0 $space-normal
+    text-decoration: none
+    border-bottom: 3px solid transparent
+    &:hover
+      // border-bottom: 3px solid $red-light
+      // background-color: darken($bg-color,2)
+      color: $grey-dark
+
+.navigation-current
+  border-bottom: 3px solid $red-light !important
+  color: $red-light !important

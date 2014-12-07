@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   if( ! version){
     version = nbItems;
-    alert(version);
+    // alert(version);
   }
 
   var reverseVersion =  (-version+1) + (nbItems-1);

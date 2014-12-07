@@ -9,21 +9,21 @@
             "type": "next"
         },
         {
-            "title": "#3 Template Texte",
+            "title": "#3 Template Livrable Design",
             "date": "30 oct 2014",
             "type": "deliverable",
             "links": [
                 {
                     "slug": "/deliverable/template-texte?v=3",
-                    "desc": "Voir le template texte <span>v3</span>"
+                    "desc": "Voir la page texte <span>v3</span>"
                 },
                 {
                     "slug": "/deliverable/template-texte?v=2",
-                    "desc": "Voir le template texte <span>v2</span>"
+                    "desc": "Voir la page texte <span>v2</span>"
                 },
                 {
                     "slug": "/deliverable/template-texte?v=1",
-                    "desc": "Voir le template texte <span>v1</span>"
+                    "desc": "Voir la page texte <span>v1</span>"
                 }
             ]
         },

@@ -67,12 +67,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Calibre Semi";
   src: url(/assets/fonts/calibre/calibre-semibold.woff) format('woff'), url(/assets/fonts/calibre/calibre-semibold.ttf) format('truetype'), url(/assets/fonts/calibre/calibre-semibold.otf) format('opentype'), url(/assets/fonts/calibre/calibre-semibold.svg) format('svg');
 }
-.font-primary, body, h2, .h2, p, .paragraph-normal, small, .paragraph-small, .paragraph-medium, .timeline-release--event h2, .header .client {
+.font-primary, body, h2, .h2, p, .paragraph-normal, small, .paragraph-small, .paragraph-medium, .timeline-release--event h2, .project-client, .navigation a {
   font-family: "Calibre Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
-.font-primary-bold, h1, .h1, h3, .h3, h4, .h4, .timeline-release h3, .timeline-release--deliverable h3, .timeline-release--event h3, .timeline-release--next h3, .nav-wrapper .nav-title, .nav-wrapper .nav-list li {
+.font-primary-bold, h1, .h1, h3, .h3, h4, .h4, .timeline-release h3, .timeline-release--deliverable h3, .timeline-release--event h3, .timeline-release--next h3, .nav-wrapper .nav-title, .nav-wrapper .nav-list li, .project-title {
   font-family: "Calibre Semi", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
@@ -82,12 +82,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 1.4;
 }
 
-.font-normal, body, p, .paragraph-normal {
+.font-normal, body, p, .paragraph-normal, .navigation a {
   font-size: 18px;
   line-height: 1.33333;
 }
 
-.font-medium, h3, .h3, .paragraph-medium, .timeline-release--event h2 {
+.font-medium, h3, .h3, .paragraph-medium, .timeline-release--event h2, .project-title, .project-client {
   font-size: 21px;
   line-height: 1.14286;
 }
@@ -97,7 +97,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 1;
 }
 
-.font-xlarge, h1, .h1, .header .client {
+.font-xlarge, h1, .h1 {
   font-size: 42px;
   line-height: 1;
 }
@@ -891,20 +891,46 @@ table tbody td {
   color: #f06654;
 }
 
+.welcome {
+  background-color: #f3f2ee;
+}
+
 .header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: #f5f5f5;
   margin-bottom: 102px;
 }
-.header h1 {
-  letter-spacing: -0.03em;
+
+.project-info {
+  float: left;
+  padding: 30px 0 18px;
 }
-.header h1 a {
-  color: #4e4c47;
+
+.project-title {
+  color: #636058;
 }
-.header .client {
+
+.project-client {
   display: inline-block;
   color: #9c9992;
+  margin-left: 6px;
+}
+
+.navigation {
+  float: right;
+}
+.navigation a {
+  display: inline-block;
+  padding: 30px 0 18px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+.navigation a:hover {
+  color: #636058;
+}
+
+.navigation-current {
+  border-bottom: 3px solid #f06654 !important;
+  color: #f06654 !important;
 }
 
 .footer {
